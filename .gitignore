@@ -1,16 +1,1 @@
-**/.project
-**/.classpath
-**/.settings
-.idea/
-*.iml
-*~
 
-# ignore the .env file so we can specify environment variables that are
-# not pushed to github
-.env
-.envs-*
-# ignore the certs files and Caddy data directory
-resources/ssl/*
-resources/caddy/data/*
-# ignore possible caddy binary downloaded
-/caddy
